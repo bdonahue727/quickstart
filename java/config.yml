@@ -3,10 +3,10 @@ logging:
   loggers:
     com.plaid: DEBUG
 
-plaidClientID: ${PLAID_CLIENT_ID}
-plaidPublicKey: ${PLAID_PUBLIC_KEY}
+plaidClientID: "5e483463b83f3800124fc1d6"
+plaidPublicKey: "b52ac005757535f018e7cfb8da7803"
 plaidSecret: ${PLAID_SECRET}
-plaidProducts: ${PLAID_PRODUCTS}
+plaidProducts: "sanbox"
 plaidCountryCodes: ${PLAID_COUNTRY_CODES}
 plaidOAuthRedirectUri: ${PLAID_OAUTH_REDIRECT_URI:-""}
 plaidOAuthNonce: ${PLAID_OAUTH_NONCE:-""}
